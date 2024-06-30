@@ -1,0 +1,25 @@
+.Pages {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+.Pages {
+  padding: 0px;
+  width: -webkit-fill-available;
+  /* border: 1px solid red; */
+  border-radius: 8px;
+  position: absolute;
+  z-index: 10;
+  /* box-sizing: inherit; */
+  top: 4.1rem;
+  left: 18rem;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+  .Pages {
+    left: 0;
+    top: 4rem;
+  }
+}
